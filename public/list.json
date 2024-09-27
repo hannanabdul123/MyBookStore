@@ -1,0 +1,107 @@
+[
+    {
+        "id":1,
+         "name":"Story Book",
+        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":5000,
+         "category":"Premium",
+        "image": "/FreeImage/FreeBook.jpg"
+    },
+    {
+        "id":2,
+         "name":"Funny Book",
+         "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":0,
+         "category":"Free",
+      "image": "/FreeImage/FreeBook.jpg"
+    },
+    {
+        "id":3,
+         "name":"Amazing Book",
+        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":0,
+         "category":"Free",
+         "image": "/FreeImage/FreeBook.jpg"
+             },
+    {
+        "id":4,
+         "name":"Horror Book",
+         "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":0,
+         "category":"Free",
+         "image": "/FreeImage/FreeBook.jpg"
+    },
+    {
+        "id":5,
+         "name":"Friction Book",
+        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":50,
+         "category":"Premium",
+         "image": "/FreeImage/FreeBook.jpg"
+    },
+    {
+        "id":6,
+         "name":"Amazing Book",
+        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+         "price":50,
+         "category":"Premium",
+         "image": "/FreeImage/FreeBook.jpg"
+             },
+             {
+                "id":7,
+                 "name":"Amazing Book",
+                "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                 "price":500,
+                 "category":"Premium",
+                 "image": "/FreeImage/FreeBook.jpg"
+                     },
+                     {
+                        "id":7,
+                         "name":"Amazing Book",
+                        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                         "price":500,
+                         "category":"Premium",
+                         "image": "/FreeImage/FreeBook.jpg"
+                             },
+                             {
+                                "id":7,
+                                 "name":"Amazing Book",
+                                "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                                 "price":0,
+                                 "category":"Free",
+                                 "image": "/FreeImage/FreeBook.jpg"
+                                     },
+                                     {
+                                        "id":7,
+                                         "name":"Funny Book",
+                                        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                                         "price":0,
+                                         "category":"Free",
+                                         "image": "/FreeImage/FreeBook.jpg"
+                                             },
+                                             {
+                                                "id":7,
+                                                 "name":"Funny Book",
+                                                "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                                                 "price":0,
+                                                 "category":"Free",
+                                                 "image": "/FreeImage/FreeBook.jpg"
+                                                     },
+                                                     {
+                                                        "id":7,
+                                                         "name":"Funny Book",
+                                                        "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                                                         "price":0,
+                                                         "category":"Free",
+                                                         "image": "/FreeImage/FreeBook.jpg"
+                                                             },
+                                                             {
+                                                                "id":7,
+                                                                 "name":"Funny Book",
+                                                                "title":"Lorem ipsum, dolor sit amet bjdjhrit ndmsnfkdkkfkdk dsjhdfksjkd jhsfhjdh ndwkfkbjs sfkfjkej kfskk",
+                                                                 "price":0,
+                                                                 "category":"Free",
+                                                                 "image": "/FreeImage/FreeBook.jpg"
+                                                                     }
+
+    ]
