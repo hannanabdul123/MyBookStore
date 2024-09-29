@@ -5,7 +5,7 @@ import Search from './Search';
 import list from '../../public/list.json';
 
 
-function Nav({onSearchChange}) {
+function Nav({onSearchChange,flag}) {
   const [query, setQuery] = useState('');
   console.log(query)
 
@@ -52,6 +52,10 @@ function Nav({onSearchChange}) {
     setIsOpen(!isOpen);
   }
 
+  useEffect(() => {
+    console.log('Query in Nav:', query);  // Log query state in Nav component
+  }, [query]);
+  
  
 
   return (
@@ -132,7 +136,12 @@ function Nav({onSearchChange}) {
       </div>
       <div className='px-5'>
      
-          <Search books={list}  Query={query} OnSearch={handleSearch} />
+      {flag ? (
+        <Search books={list} Query={query} OnSearch={handleSearch} />
+      ) : (
+        <div className="w-24"></div> 
+      )}
+      
           
            </div>
          

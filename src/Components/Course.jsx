@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
 import Carts from './Carts'
-import { NavLink } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 
 function Course() {
+  const [query, setQuery] = useState('');
+  
+  
+  const navigate=useNavigate();
+  const goback=()=>{
+    navigate(-1);
+  }
   return (
     
     <div>
-    <Nav/>
+    <Nav onSearchChange={(val)=>setQuery(val)}
+      flag={true}/>
     <div className='py-12'>
         <div className='px-5 md:px-10 py-5 md:py-10 space-between'>
               <p className='flex justify-center font-bold text-4xl py-5'>We're delighted to have you  <p className='text-pink-500 px-1'> Here! :)</p></p> 
@@ -18,13 +26,12 @@ function Course() {
                 
               </p>
               <div className='mt-10 flex justify-center '>
-              <NavLink 
-            to="/" 
+              <div
             className=' flex justify-center pt-1  text-white w-14 h-8 bg-pink-500 rounded hover:bg-pink-600'
-             activeClassName="bg-blue-500 text-white  rounded"
+             onClick={goback}
           >
             Back
-          </NavLink>
+          </div>
               
               </div>
              

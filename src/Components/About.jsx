@@ -6,7 +6,8 @@ function About() {
   return (
     <>
       <div className="min-h-screen flex flex-col">
-        <Nav />
+      <Nav flag={false}
+      className='ml-[-10px]' />
         {/* Content area to fill the space between Nav and Footer */}
         <div className="flex-grow">
           {/* Your content goes here */}

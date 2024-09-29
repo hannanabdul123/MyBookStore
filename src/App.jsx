@@ -6,6 +6,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import SignUp from './Components/SignUp'
 import SignIn from './Components/SignIn'
+import BuyNow from './Components/BuyNow'
 
 
 
@@ -22,6 +23,7 @@ function App() {
 <Route path='/About' element={<About/>}/>
 <Route path='/SignUp' element={<SignUp/>}/>
 <Route path='/SignIn' element={<SignIn/>}/>
+<Route path='/BuyNow' element={<BuyNow/>}/>
 
 </Routes>
    

@@ -10,7 +10,7 @@ function Banner() {
                 something <span className='text-pink-500'> new everyday!!!</span> </h1>
             <p className='py-5 md:py-14 text-sm md:text-base'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam optio veritatis ullam impedit. Quidem quas, quasi tempore cumque, velit ratione, cupiditate iste aliquid explicabo ad est temporibus vitae dolorem cum.</p>
             <div className='flex flex-col items-start gap-4 md:gap-8'>
-            <input  className='px-2 py-3 w-full md:w-80 rounded-md outline-none border border-gray-500' type="text" placeholder='Enter your Email to login' />
+            <input  className='text-white px-2 py-3 w-full md:w-80 rounded-md outline-none border border-gray-500' type="text" placeholder='Enter your Email to login' />
           
             <button className="btn btn-secondary">Secondary</button>
             </div>
