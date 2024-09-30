@@ -9,7 +9,7 @@ function BookStore() {
   };
   return (
     <div>
-         <Search books={list} Query={searchQuery} OnSearch={handleSearch} />
+       <Search books={list} Query={searchQuery} OnSearch={handleSearch} />
        <Carts SearchQuery={searchQuery} filtercondition={(book) => book.category === 'Free'} />
     </div>
   )

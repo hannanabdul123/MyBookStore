@@ -88,14 +88,15 @@ function Nav({onSearchChange,flag}) {
           </svg>
         </button>
       
-      <div className="flex  justify-between  my-5 mx-5 md:mx-20">
-        <h1 className=" text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold dark:text-white mb-4 md:mb-0">BookStore</h1>
+      <div className="flex  justify-between  my-5  md:space-x-0" >
+        <h1 className=" text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold dark:text-white  mb-2 md:mb-0 mr-5 ">BookStore</h1>
         
+        
+         <div className="flex flex-col md:flex-row md:items-center md:space-x-7 w-full justify-between">
           
-        <div className="flex flex-row items-center md:space-x-7 ">
         <div className={`md:block   ${isOpen ? 'block' : 'hidden'} `}>
-        <ul className=" space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row ">
-        <li>
+        <ul className=" space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row   ">
+        <li> 
           <NavLink 
             to="/" 
             exact 
@@ -111,7 +112,7 @@ function Nav({onSearchChange,flag}) {
            className="bg-white text-black hover:bg-black hover:text-white p-2 rounded"
   activeClassName="bg-blue-500 text-white"
           >
-            Course
+            Books
           </NavLink>
         </li>
         <li>
@@ -134,7 +135,7 @@ function Nav({onSearchChange,flag}) {
         </li>
       </ul>
       </div>
-      <div className='px-5'>
+      <div className='px-3 md:px-5 '>
      
       {flag ? (
         <Search books={list} Query={query} OnSearch={handleSearch} />
@@ -144,7 +145,9 @@ function Nav({onSearchChange,flag}) {
       
           
            </div>
-         
+
+           {/* Dark vs Light Thenme */}
+         <div className='flex justify-items-center space-x-20 '>
 
           <label className="pr-4 pl-3  swap swap-rotate mb-4 md:mb-0">
             {/* Hidden checkbox controls the state */}
@@ -166,7 +169,7 @@ function Nav({onSearchChange,flag}) {
               />
             </svg>
           </label>
-        <div className='pb-3'>
+        <div className=' mt-4 md:mt-0  '>
           <NavLink 
             to="/SignUp" 
             className="bg-black px-3 py-3  text-white rounded-md whitespace-nowrap"
@@ -178,6 +181,7 @@ function Nav({onSearchChange,flag}) {
           </div>
          
         
+        </div>
         </div>
       </div>
     </div>

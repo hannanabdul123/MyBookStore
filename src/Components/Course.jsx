@@ -17,11 +17,14 @@ function Course() {
     <div>
     <Nav onSearchChange={(val)=>setQuery(val)}
       flag={true}/>
-    <div className='py-12'>
-        <div className='px-5 md:px-10 py-5 md:py-10 space-between'>
-              <p className='flex justify-center font-bold text-4xl py-5'>We're delighted to have you  <p className='text-pink-500 px-1'> Here! :)</p></p> 
+    <div className='mt-20 sm:py-10 '>
+        <div className='px-5 md:px-10 py-5 md:py-10 space-between  '>
+        <p className='flex mt-20 justify-center font-bold text-2xl sm:text-4xl py-5'>
+  We're delighted to have you Here :)
+</p>
+
               
-              <p className="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, molestiae libero laboriosam perferendis reprehenderit facilis illum, nesciunt ipsa rem veritatis officiis ipsam. Non officia eos amet quo maiores facere quae!
+              <p className="py-5 text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, molestiae libero laboriosam perferendis reprehenderit facilis illum, nesciunt ipsa rem veritatis officiis ipsam. Non officia eos amet quo maiores facere quae!
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab fugit enim modi? Quibusdam praesentium perferendis consequatur, sed ratione mollitia iste dicta laborum molestias harum distinctio magni porro nulla impedit eaque?
                 
               </p>

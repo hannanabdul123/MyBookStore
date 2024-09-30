@@ -22,7 +22,7 @@ function Search({ books,Query,OnSearch }) {
       <input
         type="text"
         placeholder="Type book name..."
-        className="text-white px-3 md:px-2 py-2 w-40 md:w-40 lg:w-64 h-10 outline-none border border-black  rounded-md md:mb-2"
+        className="text-white px-3 w-40 mb-5 md:px-2 py-2 md:w-40 sm:w-30 lg:w-60 xl:w-80 h-10 outline-none border border-black  rounded-md md:mb-2"
         value={Query}
         onChange={handleInputSearch}
           
